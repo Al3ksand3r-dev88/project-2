@@ -34,12 +34,13 @@ a.btn-links {
   background: #333;
 }
 h1.main-heading {
-  margin: 2rem 0;
+  padding: 2rem 0;
   font-size: 2rem;
+  font-weight: lighter;
   text-align: var(--text-center);
 }
 h1.main-heading.m-top {
-  margin: 100px 0 4vh 0;
+  padding: 100px 0 4vh 0;
 }
 body,
 html,
@@ -310,6 +311,21 @@ textarea::placeholder {
   width: 40%;
   cursor: pointer;
   color: var(--color-turkos);
+}
+
+.footer-container a.go-up {
+  color: #fff;
+  width: 150px;
+  display: flex;
+  font-size: 0.8rem;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+  margin: 1rem auto 0 auto;
+}
+
+.footer-container a.go-up i {
+  font-size: 2rem;
 }
 
 section.copy-content {
